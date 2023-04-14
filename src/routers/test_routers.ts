@@ -8,6 +8,6 @@ testsRouter.delete("/", (req,res) => {
         res.sendStatus(204)
     }
     else {
-        res.sendStatus(405)
+        res.sendStatus(404)
     }
 })
