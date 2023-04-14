@@ -143,7 +143,7 @@ videosRouter.delete("/:id", (req, res) => {
         return;
     }
     else {
-        res.sendStatus(404)
+        res.sendStatus(405)
         return;
     }
 })
