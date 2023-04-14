@@ -5,7 +5,7 @@ const port = 3000
 import {videosRouter} from "./routers/videos-router";
 import {testsRouter} from "./routers/test_routers";
 app.use("/videos", videosRouter)
-app.use ("/all-data", testsRouter)
+app.use ("/testing/all-data", testsRouter)
 export const HTTP_STATUS = {
     OK_200:200,
     CREATED_201:201,
